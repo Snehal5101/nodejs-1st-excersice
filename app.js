@@ -1,4 +1,4 @@
-let age =require('./stud');
+let{age,studdata} =require('./stud');
 let{add,sub} = require('./mathemaical eq');
 
 console.log("hello");
@@ -10,6 +10,8 @@ else{
     console.log("You cannot vote");
 }
 
+
+studdata(name,rollno,marks);
 
 add(a,b);
 

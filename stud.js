@@ -1,10 +1,17 @@
 let age=29;
 
-module.exports= age;
+let name="ram";
+let rollno=23;
+let marks=89;
+
+function studdata(name,rollno,marks){
+    return ("name"+"rollno"+"marks");
+   
+}
+console.log(name,rollno,marks);
 
 
-// function setdata(){
-//     console.log("Name"+"Rollno"+"Marks");
 
-// }s
-// setdata(Ram+25+69)
+
+module.exports.age = age;
+module.exports.studdata = studdata;
