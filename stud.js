@@ -1,17 +1,11 @@
-let age=29;
+let age=25;
 
-let name="ram";
-let rollno=23;
-let marks=89;
 
-function studdata(name,rollno,marks){
-    return ("name"+"rollno"+"marks");
-   
+function get(name, rollno,marks){
+    console.log("Student Name = " + name, "Rollno. = " + rollno, "Marks = " + marks);
 }
-console.log(name,rollno,marks);
 
 
+module.exports.get=get;
+module.exports.age=age;
 
-
-module.exports.age = age;
-module.exports.studdata = studdata;
